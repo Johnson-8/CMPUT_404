@@ -1,0 +1,88 @@
+Comparing files curl_with_X-POST.txt and CURL_WITHOUT_X-POST.TXT
+***** curl_with_X-POST.txt
+HTTP/1.1 200 OK
+Date: Thu, 15 Sep 2022 03:37:35 GMT
+Server: Apache/2.4.6 (CentOS)
+***** CURL_WITHOUT_X-POST.TXT
+HTTP/1.1 200 OK
+Date: Thu, 15 Sep 2022 03:38:11 GMT
+Server: Apache/2.4.6 (CentOS)
+*****
+
+***** curl_with_X-POST.txt
+<H3>Form Contents:</H3>
+<DL>
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
+</DL>
+***** CURL_WITHOUT_X-POST.TXT
+<H3>Form Contents:</H3>
+<P>No form fields.
+<DL>
+</DL>
+*****
+
+***** curl_with_X-POST.txt
+<DL>
+<DT> CONTENT_LENGTH <DD> 3
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+***** CURL_WITHOUT_X-POST.TXT
+<DL>
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+*****
+
+***** curl_with_X-POST.txt
+<DT> REMOTE_ADDR <DD> 75.159.171.94
+<DT> REMOTE_PORT <DD> 65210
+<DT> REQUEST_METHOD <DD> POST
+<DT> REQUEST_SCHEME <DD> https
+***** CURL_WITHOUT_X-POST.TXT
+<DT> REMOTE_ADDR <DD> 75.159.171.94
+<DT> REMOTE_PORT <DD> 65218
+<DT> REQUEST_METHOD <DD> GET
+<DT> REQUEST_SCHEME <DD> https
+*****
+
+***** curl_with_X-POST.txt
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> YyKd-1wdTHmnjI7WkjyY8QAAACY
+</DL>
+***** CURL_WITHOUT_X-POST.TXT
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> YyKeI8BTX7k8lRj27msTcwAAACA
+</DL>
+*****
+
+***** curl_with_X-POST.txt
+<DL>
+<DT> CONTENT_LENGTH <DD> 3
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+***** CURL_WITHOUT_X-POST.TXT
+<DL>
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+*****
+
+***** curl_with_X-POST.txt
+<DT> REMOTE_ADDR <DD> 75.159.171.94
+<DT> REMOTE_PORT <DD> 65210
+<DT> REQUEST_METHOD <DD> POST
+<DT> REQUEST_SCHEME <DD> https
+***** CURL_WITHOUT_X-POST.TXT
+<DT> REMOTE_ADDR <DD> 75.159.171.94
+<DT> REMOTE_PORT <DD> 65218
+<DT> REQUEST_METHOD <DD> GET
+<DT> REQUEST_SCHEME <DD> https
+*****
+
+***** curl_with_X-POST.txt
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> YyKd-1wdTHmnjI7WkjyY8QAAACY
+</DL>
+***** CURL_WITHOUT_X-POST.TXT
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> YyKeI8BTX7k8lRj27msTcwAAACA
+</DL>
+*****
+
