@@ -17,5 +17,6 @@ file.close()
 
 # print out source code
 file = open("downloadMyself.py", "r")
-print("My source code:\n" + str(file.read()))
+sc = file.read()
+print("My source code:\n" + sc)
 file.close()
