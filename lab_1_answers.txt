@@ -17,6 +17,7 @@ Q6:
 Status code 301. The one returned by curl -i. Status code 418.
 
 Q7:
-
+There is fields in form contents. Method is useful for sending data to the receiver.
 
 Q8:
+
